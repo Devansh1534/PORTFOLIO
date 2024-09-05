@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Devansh Tiwari",
+  title: "Hi all, I'm Devansh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13Y4IJt2rnI2rez3b5V57D3jYdwg04pdW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Devansh1534",
+  linkedin: "www.linkedin.com/in/devansh-tiwari-a06363228//",
+  gmail: "devanshtiwari1534@gmail.com",
+  twitter: "https://x.com/Devansh1534",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -54,9 +51,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications and Machine Learning models"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡Pro in using platform such as VisualForce, Visual Studio, Google Colab, Oracle Database"
     )
   ],
 
@@ -89,10 +86,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -112,10 +105,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +115,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Pranveer Singh Institue of Technology",
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "November 2021 - July 2025",
+      desc: "Participated in the Technological Competetions  and published 2 papers.",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Pt Deen Dayal Upadhyaya School",
+      subHeader: "Intermediate In Mathematics and Computer Science",
+      duration: "September 2019 - April 2021",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,15 +135,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Software Development", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Machine Learning",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Problem Solving",
       progressPercentage: "60%"
     }
   ],
@@ -174,30 +156,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Intellistride Technology",
+      companylogo: require("./assets/images/intellistride.webp"),
+      date: "April 2024 – Present",
+      desc: "Optimized and sustained Python-based applications for RFID technology, IoT software consultancy, and Modbus communication protocols",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Administered SQL database, handling records daily, ensuring data integrity and optimal performance by ensuring data tracking ",
+        " Partnered on Flask frameworks, contributing to the delivery of 5 client projects within strict deadlines."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: " virtual Salesforce Developer Intern",
+      company: "Salesforce",
+      companylogo: require("./assets/images/salesforce.png"),
+      date: "December 2023 – February 2024",
+      desc: "Strengthened expertise in Salesforce development, Apex coding, and Lightning component through active participation in the Salesforce Virtual Internship Developer Program by working on 19 modules"    
+
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -246,56 +222,107 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Projects 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "IEEE YESIST 2023 FINALIST",
+      image: require("./assets/images/ieee.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1pyVoL5uys7hgHWo6bP8HNAX2hyCf1XRd/view"
         },
+      ]
+    },
+    {
+      title: "Summer Training in GenAI",
+      image: require("./assets/images/springboard.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1c-1_XDGkPNXf_t3LlgVL-EJwOdcW9M5E/view"
         },
+      ]
+    },
+    {
+      title: "Apex Specialist Superbadge",
+      image: require("./assets/images/salesforce-2.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certification",
+          url: "https://trailhead.salesforce.com/content/learn/superbadges/superbadge_apex?trailmix_creator_id=smartbridgesupport&trailmix_slug=developer"
+        },
+      ]
+    },
+    {
+      title: "FreeScribe",
+      subtitle: "Build a free for all transcription and transcribing application leveraging enhanced OpenAi Whisper ML Model",
+      image: require("./assets/images/freescribe.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "GitHub", url: "https://github.com/Devansh1534/FreeScribe.git"},
+        {
+          name: "Demonstration",
+          url: "https://free-scribe-orcin.vercel.app/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Movix",
+      subtitle: "Developed a movie database platform using Netlify, enabling users to explore specific movie categories, ratings, and details",
+      image: require("./assets/images/movix.jpg"),
+      imageAlt: "PWA Logo",
       footerLink: [
+        {name: "GitHub", url: "https://github.com/Devansh1534/Movix.git"},
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Demonstration",
+          url: "https://movix-2.netlify.app/"
+        }
+      ]
+    },
+    {
+      title: "BuzzAI",
+      subtitle: "Spearheaded the development of an AI SaaS platform featuring 5 cutting-edge AI tools",
+      image: require("./assets/images/buzzai.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "GitHub", url: "https://github.com/Devansh1534/BuzzAI.git"},
+        {
+          name: "Demonstration",
+          url: "https://buzz-ai.vercel.app/"
+        }
+      ]
+    },
+    {
+      title: "CoinMaarketCap",
+      subtitle: "Developed CoinMarketCap, built with JavaScript, CSS displays real-time data of cryptocurrencies with real time updates",
+      image: require("./assets/images/coinmarketcap.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "GitHub", url: "https://github.com/Devansh1534/Coinmarketcap.git"},
+        {
+          name: "Demonstration",
+          url: "https://coinmarketcap-clone-blockchain.netlify.app/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Satelite Imaging Deep Learning",
+      subtitle: "Executed satellite imagery data, ensuring preparation and processing, Advanced techniques enabled model deployment with custom metrics and heatmap visualization.",
+      image: require("./assets/images/deep learning.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "GitHub", url: "https://github.com/Devansh1534/Satelite-Imagery-DeepLearning.git"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Demonstration",
+          url: "https://drive.google.com/drive/u/0/folders/134LsjKpRR1n3MSxIOYCbH_lJ2itlcvu1"
         }
       ]
     }
@@ -346,18 +373,8 @@ const talkSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Resume Section
 const resumeSection = {
@@ -372,8 +389,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8957598101",
+  email_address: "devanshtiwari1534@gmail.com"
 };
 
 // Twitter Section
@@ -399,7 +416,6 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable,
